@@ -9,6 +9,10 @@ import {Hero} from "./hero";
 export class AppComponent {
   title = 'app works!';
 
+  isDisabled = false;
+
+  fontSizePx = 8;
+
   heroes = [new Hero(1, 'Windstorm'), new Hero(1, 'Bombasto'), new Hero(1, 'Magneta') , new Hero(1, 'Tornado')];
   myHero = this.heroes[0];
 
